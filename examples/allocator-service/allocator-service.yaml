@@ -57,8 +57,8 @@ spec:
           secretName: allocatorw3secret
       containers:
       - name: fleet-allocator
-        image: [REPO]/[USER]/allocator-service:[TAG]
-        #image: index.docker.io/exampleuser/allocator-service:simple-udp-5
+        #image: [REPO]/[USER]/allocator-service:[TAG]
+        image: index.docker.io/pratikxman/allocator-service:simple-udp
         imagePullPolicy: Always
         ports:
         - name: fleet-allocator
